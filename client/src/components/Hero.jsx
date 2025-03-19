@@ -19,12 +19,12 @@ function Hero() {
         </p>
         <div className="flex gap-3">
           <Link to="/signup">
-            <button className="bg-[#FE5D21] rounded-sm py-3 px-5 text-white font-semibold">
+            <button className="bg-[#C7D9DD] cursor-pointer rounded-sm py-3 px-5 text-[#1a1a1a] font-semibold">
               Get Started
             </button>
           </Link>
           <Link>
-            <button className="bg-[#5DA759] rounded-sm py-3 px-5 text-white font-semibold">
+            <button className="bg-[#FFB22C] cursor-pointer rounded-sm py-3 px-5 text-white font-semibold">
               How it Works
             </button>
           </Link>

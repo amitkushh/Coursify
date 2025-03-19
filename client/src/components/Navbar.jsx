@@ -5,10 +5,12 @@ function Navbar() {
   return (
     <header>
       <div className="px-5 py-8 flex justify-between items-center  md:px-20 md:py-7 border-b-2">
-        <div className="flex justify-center items-center gap-3">
-          <img src={Logo} alt="logo" className="h-8" />
-          <p className="text-xl font-semibold">Coursify</p>
-        </div>
+        <Link to="/">
+          <div className="flex justify-center items-center gap-3">
+            <img src={Logo} alt="logo" className="h-8" />
+            <p className="text-xl font-semibold">Coursify</p>
+          </div>
+        </Link>
         <div className="hidden">
           <ul className="font-semibold text-md flex justify-center items-center gap-6 cursor-pointer">
             <Link to="/">
